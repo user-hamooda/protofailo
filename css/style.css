@@ -62,7 +62,7 @@ img {
 
 @media (max-width: 768px) {
     .p-5 {
-        padding: 1rem !important;
+        padding: 3rem 1rem !important;
     }
 }
 
@@ -153,8 +153,7 @@ img {
     color: white;
 }
 
-.about .card.tow p span {
-    display: block;
+.about .card.tow p {
     text-align: center;
 }
 
@@ -163,14 +162,14 @@ img {
         text-align: center;
     }
 
-    .about .card.tow {
-        overflow-y: scroll;
+    .about .card.tow.p-4 {
+        padding: 1rem !important;
     }
 }
 
 /* skills */
 .skills .card img {
-    width: 175px;
+    width: 125px;
 }
 
 .skills .card h3 {
