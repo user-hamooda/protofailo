@@ -75,6 +75,7 @@ img {
 
 .navbar .navbar-brand {
     color: var(--blue);
+    font-family: "Pacifico", cursive;
 }
 
 .navbar .navbar-brand:hover {
@@ -205,19 +206,19 @@ img {
 }
 
 .business .business-1::before {
-    content: 'name 1';
+    content: 'hotel';
 }
 
 .business .business-2::before {
-    content: 'name 2';
+    content: 'todo';
 }
 
 .business .business-3::before {
-    content: 'name 3';
+    content: 'food';
 }
 
 .business .business-4::before {
-    content: 'name 4';
+    content: 'protofailo';
 }
 
 /* contact */
