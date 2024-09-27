@@ -8,7 +8,17 @@
     --shadow: #101010;
 }
 
-/* nav  */
+/* scrollbar  */
+html::-webkit-scrollbar {
+    background-color: #424242 !important;
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    border-radius: 50px;
+}
+
 /* style elmaent */
 
 *:focus {
@@ -266,12 +276,12 @@ img {
     background-color: #1877f2;
 }
 
-.contact .card.youtube:hover {
-    background-color: #ff0000;
+.contact .card.telephone:hover {
+    background-color: #008000;
 }
 
-.contact .card.download:hover {
-    background-color: #17aeb4;
+.contact .card.envelope:hover {
+    background-color: #b97b29;
 }
 
 .contact .card a {
@@ -280,6 +290,12 @@ img {
 }
 
 /* footer */
-footer p {
+footer a {
+    text-decoration: none;
     color: var(--text) !important;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: var(--blue) !important;
 }
